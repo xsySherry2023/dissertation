@@ -1,8 +1,8 @@
 ## Introduction
 
-Stereotype bias is a problem that exists in large amounts of text data in reality. In order to avoid the harm that this unfairness may cause, stereotype bias from language models should be mitigate as much as possible. Fine-tuning has been tried to solve the stereotype problem in some research. 
+Stereotype bias is a problem that exists in large amounts of text data in reality. In order to avoid the harm that this unfairness may cause, stereotype bias from language models should be mitigate as much as possible. Fine-tuning has been tried to solve the stereotype problem in some research.  
 In this project, we proposed prompt learning to correct for stereotype bias in large language models. The stereotype dataset was employed as the foundation for quantifying the model’s bias. We selected some samples from an out-of-corpus Wikipedia dump(8 million text data included) as few-shot prompt examples based on their similarity to the masked sentences. Different numbers of few-shots were input in the format of “sentence and label”as different experimental groups. With such hints, the stereotypes from the language model can be effectively mitigated. Then we found the two-shot model achieved the best language model tuning results.
-<img src="[https://www.example.com/path/to/image.jpg](https://www.dropbox.com/scl/fi/q1v2c43ruun9v5wbkncal/data_structure.png?rlkey=b02yq7vrbcd77jdm4wu6x2zdv&dl=0)" width="200" height="200" align="center">
+<img src="https://www.dropbox.com/scl/fi/q1v2c43ruun9v5wbkncal/data_structure.png?rlkey=b02yq7vrbcd77jdm4wu6x2zdv&dl=0" width="200" height="200" align="center">
 ## File Structure
 
 ### This project includes five main files, each serving a unique purpose:
